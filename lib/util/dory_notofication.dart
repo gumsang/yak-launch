@@ -20,7 +20,7 @@ class DoryNotificationService with ChangeNotifier{
 
   Future<void> initializeNotification() async {
     const initializationSettingsAndroid =
-        AndroidInitializationSettings('@mipmap/ic_launcher');
+        AndroidInitializationSettings('@mipmap/yak');
 
     const initializationSettingsIOS = IOSInitializationSettings(
       requestAlertPermission: false,
